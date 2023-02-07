@@ -1,0 +1,164 @@
+
+p{
+    font-size:1.8em;
+    color:rgb(187, 255, 0);
+     font-family:"Dancing Script"
+}
+body{
+   background-color:black;
+}
+h1{
+    text-align: center;
+    font-size:2em;
+    color: azure;
+}
+p{
+    text-align: justify;
+}
+.conteneur0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    margin-bottom: 500px;
+}
+.boxx:hover{
+    cursor: pointer;
+    color: red;
+
+}
+
+.boxx{
+    font-size: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+
+.élément{
+    border:3px solid;
+    background-color: gray;
+    color: white;
+    font-size:1em;
+    font-weight:1em ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.élément{
+    height:600px;
+    width:1506px;
+    margin-bottom:60px;
+}
+.conteneur2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 200px;
+}
+.box{
+    background-color: red;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px ;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+.box:hover{
+    background-color: blue;
+    width: 350px;
+    height: 420px;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+h1:hover{
+    background-color: white;
+}
+
+p2{
+    font-size: 1.5em;
+    border: 3px dashed rgba(1, 1, 1, 0.156);
+    padding:25px;
+    margin:10px;
+
+}
+header{
+    font-size: 3em;
+    color:rgb(170, 255, 0);
+}
+img{
+    width: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.bloc{
+    position: relative;
+    left:0;
+    top:0;
+    width:100%;
+    height:340px;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+}
+.séance{
+    position: relative;
+    left: 0;
+    font-size: 3em;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    justify-content:center;
+    background-color: blue;
+}
+.bloc video{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 343px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+.page_première{
+    position: relative;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    
+}
+.pied{
+    display: flex;
+    flex-direction: rows;
+    height: 150px;
+    justify-content: space-around;
+    color:white;
+    background-color: blue;
+    background-attachment: fixed;
+    font-size: 2em;
+    border-bottom: solid;
+}
+.main{
+    height: 200px;
+    background: blue;
+}
+.last{
+    position: relative;
+    left: -900PX;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:1.1em;
+    color:white;
+    background-color: blueviolet;
+}

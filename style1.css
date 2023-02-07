@@ -1,0 +1,15 @@
+p{
+    font-size: 1.5em;
+    color: black;
+    font-family:"Dancing Script";
+
+}
+header{
+    font-size: 1.2;
+
+}
+h6{ 
+    font-size: 2em;
+    color: rgb(0, 0, 255);
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.2);
+}
